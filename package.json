@@ -1,0 +1,24 @@
+{
+  "name": "jinse-document",
+  "version": "1.0.0",
+  "description": "找一个人最好的时间是在十八九岁，其次是现在。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasterFan/jinse-document.git"
+  },
+  "keywords": [],
+  "author": "easterfan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EasterFan/jinse-document/issues"
+  },
+  "homepage": "https://github.com/EasterFan/jinse-document#readme"
+}
