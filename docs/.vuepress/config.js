@@ -4,6 +4,7 @@ module.exports = {
   host: 'localhost',
   port: '4000',
   docsDir: 'docs',
+  base: '/jinse-document/',
   // ga: 'UA-110780416-2',
   head: [
     ['link', { rel: 'icon', href: '/pic.jpg' }],
@@ -20,43 +21,23 @@ module.exports = {
     repo: 'easterfan/jinse-document',
     nav: [
       { text: '首 页', link: '/' },
-      { text: '文 档', link: '/install-with-centos' },
+      { text: '文 档', link: '/start' },
       // { text: '社 区', link: 'https://bbs.halo.run' },
     ],
     sidebar: [
       {
-        title: '是什么',
+        title: '开始',
         collapsable: false,
         children: [
-          '/whatis',
+          '/start',
+          '/view',
         ],
       },
       {
-        title: '想干什么',
+        title: 'FAQ',
         collapsable: false,
         children: [
-          '/whattodo'
-        ],
-      },
-      {
-        title: '理念',
-        collapsable: false,
-        children: [
-          '/sprit'
-        ],
-      },
-      {
-        title: '参与',
-        collapsable: false,
-        children: [
-          '/join'
-        ],
-      },
-      {
-        title: '作者吹牛逼时刻',
-        collapsable: false,
-        children: [
-          '/nb'
+          '/faq'
         ],
       },
       {
@@ -64,13 +45,6 @@ module.exports = {
         collapsable: false,
         children: [
           '/copy'
-        ],
-      },
-      {
-        title: '协作',
-        collapsable: false,
-        children: [
-          '/cooperation',
         ],
       },
       {

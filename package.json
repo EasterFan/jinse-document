@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "找一个人最好的时间是在十八九岁，其次是现在。",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"

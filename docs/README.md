@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /cover.jpg
+heroImage: /pic.jpg
 tagline: 为还对婚姻抱有热忱的 95 后指一条路
 actionText: 我来了 →
 actionLink: /donate.md
@@ -15,7 +15,7 @@ pageClass: halo-home
 footer: GPL-3.0 Licensed | Copyright © 2019 EasterFan
 ---
 
-<div style="text-align: center">
+<!-- <div style="text-align: center">
   <Bit/>
 </div>
 
@@ -23,9 +23,12 @@ footer: GPL-3.0 Licensed | Copyright © 2019 EasterFan
   <a href="https://vuepress.vuejs.org/" target="">
     <img width="180" src=".vuepress/public/cover.jpg" alt="logo">
   </a>
-</p>
+</p> -->
 
 
+
+![](https://raw.githubusercontent.com/EasterFan/jinse-document/master/docs/.vuepress/public/cover.jpg)
 
 ## TODO
 - [ ] 首页开头和中间添加图片 bit-sponsor
+- [ ] cover 图片插入html
