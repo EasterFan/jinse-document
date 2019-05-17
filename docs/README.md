@@ -31,4 +31,8 @@ footer: GPL-3.0 Licensed | Copyright © 2019 EasterFan
 
 ## TODO
 - [ ] 首页开头和中间添加图片 bit-sponsor
-- [ ] cover 图片插入html
+- [ ] cover 图片插入html  
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
